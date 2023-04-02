@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style8.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Data Types</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo"><a href="#"><span>J</span>ava</a></h1>
+        <ul class="main-nav">
+            <li><a href="index.html" target="main">Home</a></li>
+            <li><a href="index7.html" target="main">Previous Page</a></li>
+            <li><a href="index.html" target="main">Next Page</a></li>
+        </ul>
+    </header>
+
+
+    <div class="content">
+        <fieldset>
+            <legend id="anim">
+                <p> Java<span> Data Types</span></p>
+            </legend>
+            <p id="special">
+                <span id="blue">Java is a statically-typed language. This means that all variables must be declared
+                    before they can be used.</span>
+                Data types specify the different sizes and values that can be stored in the variables. <br><br>
+                There are two types of data types in Java: <br>
+                1. <span id="blue"> Primitive Data Type</span> <br>
+                2. <span id="blue"> Non-Primitive Data Type</span> <br> <br>
+
+                1. <span id="blue"> Primitive Data Type</span>:- The primitive data types include boolean, char, byte,
+                short, int, long, float and double. <br>
+                <span id="blue">Example: </span><span id="lightblue">int</span><span id="orange"> speed;</span><br>
+                Here, <span id="orange">speed</span> is a variable, and the data type of the variable is <span
+                    id="lightblue">int.</span>
+                The <span id="lightblue">int</span> data type determines that the <span id="orange">speed
+                </span>variable can only contain integers. <br>
+                There are 8 data types predefined in Java, known as primitive data types. <br>
+                <span>Note:</span> In addition to primitive data types, there are also referenced types (object type).
+                <br><br>
+
+                <span id="blue">8 Primitive Data Types are -</span><br>
+
+                1. <span id="lightblue">Boolean Type</span><br>
+                The boolean data type has two possible values, either <span id="orange">true</span> or <span
+                    id="orange">false</span>. <br>
+                Default value: <span id="orange">false</span>. <br>
+                They are usually used for true/false conditions. <br>
+
+                <img src="boolean.jpg" alt=""> <br><br>
+
+                2. <span id="lightblue">Byte Type</span> <br>
+                The byte data type can have values from -128 to 127 (8-bit signed two's complement integer). <br>
+                If it's certain that the value of a variable will be within -128 to 127, then it is used instead of int
+                to save memory. <br>
+                Default value: 0 <br>
+                <img src="btye.jpg" alt=""> <br><br>
+
+                3. <span id="lightblue">Short Type</span><br>
+                The short data type in Java can have values from -32768 to 32767 (16-bit signed two's complement
+                integer). <br>
+                If it's certain that the value of a variable will be within -32768 and 32767, then it is used instead of
+                other integer data types (int, long). <br>
+                Default value: 0. <br>
+                <img src="short.jpg" alt=""> <br><br>
+
+                4. <span id="lightblue">Int Type</span><br>
+                The int data type can have values from -231 to 231-1 (32-bit signed two's complement integer). <br>
+                If you are using Java 8 or later, you can use an unsigned 32-bit integer. This will have a minimum value
+                of 0 and a maximum value of 232-1. To learn more, visit How to use the unsigned integer in java 8? <br>
+                Default value: 0. <br>
+                <img src="int.jpg" alt=""> <br><br>
+
+                5. <span id="lightblue">Long Type</span><br>
+                The long data type can have values from -263 to 263-1 (64-bit signed two's complement integer). <br>
+                If you are using Java 8 or later, you can use an unsigned 64-bit integer with a minimum value of 0 and a
+                maximum value of 264-1. <br>
+                Default value: 0. <br>
+                <img src="long.jpg" alt=""> <br>
+                Notice, the use of L at the end of -42332200000. This represents that it's an integer of the long type.
+                <br><br>
+
+                6. <span id="lightblue">Double Type</span><br>
+                The double data type is a double-precision 64-bit floating-point. <br>
+                It should never be used for precise values such as currency. <br>
+                Default value: 0.0 (0.0d). <br>
+                <img src="double.jpg" alt=""> <br><br>
+
+                7. <span id="lightblue">Float Type</span><br>
+                The float data type is a single-precision 32-bit floating-point. Learn more about single-precision and
+                double-precision floating-point if you are interested. <br>
+                It should never be used for precise values such as currency. <br>
+                Default value: 0.0 (0.0f) <br>
+                <img src="float.jpg" alt=""> <br>
+                Notice that we have used -42.3f instead of -42.3 in the above program. It's because -42.3 is a double
+                literal. <br>
+                To tell the compiler to treat -42.3 as float rather than double, you need to use f or F. <br><br>
+
+                8. <span id="lightblue">Char Type</span><br>
+                It's a 16-bit Unicode character. <br>
+                The minimum value of the char data type is '\u0000' (0) and the maximum value of the is '\uffff'. <br>
+                Default value: '\u0000'. <br>
+                <img src="char1.jpg" alt=""> <br>
+                Here, the Unicode value of Q is \u0051. Hence, we get Q as the output. <br>
+                Here is another example: <br>
+                <img src="char2.jpg" alt=""> <br>
+                Here, we have assigned 9 as a character (specified by single quotes) to the letter1 variable. However, <br>
+                the letter2 variable is assigned 65 as an integer number (no single quotes). <br><br>
+
+                2. <span id="blue">Non-Primitive Data Type</span>:- The non-primitive data types include Classes, Interfaces and Array.
+                <br>
+            </p>
+        </fieldset>
+    </div>
+    <footer>
+        <p>Siren</p>
+        <p>For more any help - please click on the link below to Email/Messege me.</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="end2"><span>Made with </span>Love <span>in INDIA</p>
+        <p class="end">CopyRight By <span>Yusuf Ali</span></p>
+    </footer>
+</body>
+
+</html>
